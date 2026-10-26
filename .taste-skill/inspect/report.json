@@ -1,0 +1,2165 @@
+{
+ "url": "http://localhost:3001",
+ "at": "2026-10-25T14:18:39.223Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.44,
+    0.88,
+    0.68,
+    0.64,
+    0.88
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4123,
+     "screens": 4.6,
+     "words": 340,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=1920&q",
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=1920&q",
+      "image?url=%2Fassets%2Fcontainer-terminal.jpg&w=1",
+      "image?url=%2Fassets%2Fwarehouse-logistics.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "chars": 41,
+     "lines": 3,
+     "size": 67.2,
+     "vw": 4.7,
+     "font": "Bricolage Grotesque",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.41,
+     "top": 138,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "lines": 3,
+     "size": 67.2,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "words": 5,
+      "chars": 41,
+      "lines": 3,
+      "size": 67.2,
+      "vw": 4.7,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 138,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "18",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 613,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "420+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 613,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "97.8%",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 2.7,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 613,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Logistics Modes",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 1019,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Road freight",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 2.4,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 1549,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bengaluru to Coastal Ports",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2143,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Verified chain of custody.",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2755,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schedule your next dispatch",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3333,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      35,
+      38,
+      54,
+      64,
+      67,
+      72
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 17.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "text": "Integrated Logistics Modes"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 1
+    },
+    "eyebrows": [
+     {
+      "text": "Instant Lane Calculation ↗",
+      "above": "18",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15.2,
+      "top": 494
+     },
+     {
+      "text": "Instant Lane Calculation ↗",
+      "above": "420+",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15.2,
+      "top": 494
+     },
+     {
+      "text": "Pincode & Port Network",
+      "above": "97.8%",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15.2,
+      "top": 494
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0c1214",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.25,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#141d20",
+       "top": 907,
+       "hsl": {
+        "h": 195,
+        "s": 0.23,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a2b0b5",
+       "share": 0.54
+      },
+      {
+       "color": "#f0f4f5",
+       "share": 0.24
+      },
+      {
+       "color": "#829298",
+       "share": 0.16
+      },
+      {
+       "color": "#0c1214",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6b35",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b35",
+      "hsl": {
+       "h": 16,
+       "s": 1,
+       "l": 0.6
+      },
+      "fg": "#0c1214"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 6,
+     "radius": 4,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Calculate Lane",
+      "Instant Lane Calculation ↗",
+      "Pincode & Port Network",
+      "Track",
+      "Calculate Corridor Freight Rates ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "header.jsx-a0ec13acdaa55d3e 1440px",
+      "div 590px",
+      "div 544px",
+      "footer 1440px",
+      "div 1252px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 12,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1236
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 74,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "bricolage grotesque",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4123,
+    "margins": {
+     "left": 94,
+     "right": 94
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 74,
+      "height": 689,
+      "words": 52,
+      "media": 1,
+      "middle": 141,
+      "heading": {
+       "text": "Precision freight with verified handoffs.",
+       "size": 67,
+       "tag": "h1"
+      },
+      "left": 94,
+      "right": 94,
+      "textLeft": 94,
+      "textRight": 139,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 764,
+      "height": 143,
+      "words": 9,
+      "media": 0,
+      "middle": 359,
+      "heading": null,
+      "left": 118,
+      "right": 416,
+      "textLeft": 118,
+      "textRight": 416,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 907,
+      "height": 1060,
+      "words": 78,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Integrated Logistics Modes",
+       "size": 72,
+       "tag": "h2"
+      },
+      "left": 94,
+      "right": 95,
+      "textLeft": 94,
+      "textRight": 128,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#network",
+      "tag": "section",
+      "top": 1967,
+      "height": 765,
+      "words": 37,
+      "media": 1,
+      "middle": 137,
+      "heading": {
+       "text": "Bengaluru to Coastal Ports",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 158,
+      "right": 94,
+      "textLeft": 158,
+      "textRight": 833,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 2731,
+      "height": 452,
+      "words": 51,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "Verified chain of custody.",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 94,
+      "right": 94,
+      "textLeft": 94,
+      "textRight": 380,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 3183,
+      "height": 483,
+      "words": 29,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "Schedule your next dispatch",
+       "size": 54,
+       "tag": "h2"
+      },
+      "left": 158,
+      "right": 185,
+      "textLeft": 158,
+      "textRight": 185,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 3666,
+      "height": 457,
+      "words": 90,
+      "media": 0,
+      "middle": 112,
+      "heading": null,
+      "left": 94,
+      "right": 111,
+      "textLeft": 94,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "size": 67,
+      "top": 138,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 94,
+      "n": 6
+     },
+     {
+      "x": 158,
+      "n": 4
+     },
+     {
+      "x": 769,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 660,
+     "y": 660,
+     "w": 780,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.54,
+    0.8,
+    0.78,
+    0.68,
+    0.92
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4738,
+     "screens": 4.6,
+     "words": 340,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=828&q=",
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=828&q=",
+      "image?url=%2Fassets%2Fcontainer-terminal.jpg&w=8",
+      "image?url=%2Fassets%2Fwarehouse-logistics.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "chars": 41,
+     "lines": 1,
+     "size": 40,
+     "vw": 5.2,
+     "font": "Bricolage Grotesque",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "lines": 1,
+     "size": 40,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "words": 5,
+      "chars": 41,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 113,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "18",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 379,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "420+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 379,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "97.8%",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 379,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Logistics Modes",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 1215,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Road freight",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 1714,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bengaluru to Coastal Ports",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 2195,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Verified chain of custody.",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3016,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schedule your next dispatch",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 3770,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21,
+      22,
+      28,
+      35,
+      38,
+      40,
+      42
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 17.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Bricolage Grotesque",
+      "text": "Integrated Logistics Modes"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0c1214",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.25,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#141d20",
+       "top": 471,
+       "hsl": {
+        "h": 195,
+        "s": 0.23,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a2b0b5",
+       "share": 0.54
+      },
+      {
+       "color": "#f0f4f5",
+       "share": 0.24
+      },
+      {
+       "color": "#829298",
+       "share": 0.16
+      },
+      {
+       "color": "#0c1214",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6b35",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b35",
+      "hsl": {
+       "h": 16,
+       "s": 1,
+       "l": 0.6
+      },
+      "fg": "#0c1214"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 4,
+     "radius": 4,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Calculate Lane",
+      "Instant Lane Calculation ↗",
+      "Pincode & Port Network",
+      "Track"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "header.jsx-a0ec13acdaa55d3e 768px",
+      "div 691px",
+      "div 264px",
+      "footer 768px",
+      "div 691px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 14,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1401
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 74,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "bricolage grotesque",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4738,
+    "margins": {
+     "left": 38,
+     "right": 38
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 74,
+      "height": 909,
+      "words": 52,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Precision freight with verified handoffs.",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 983,
+      "height": 167,
+      "words": 9,
+      "media": 0,
+      "middle": 131,
+      "heading": null,
+      "left": 62,
+      "right": 80,
+      "textLeft": 62,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 1151,
+      "height": 942,
+      "words": 78,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Integrated Logistics Modes",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 38,
+      "right": 39,
+      "textLeft": 38,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#network",
+      "tag": "section",
+      "top": 2093,
+      "height": 923,
+      "words": 37,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Bengaluru to Coastal Ports",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 77,
+      "textRight": 107,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 3016,
+      "height": 668,
+      "words": 47,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 3683,
+      "height": 364,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Schedule your next dispatch",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 77,
+      "right": 115,
+      "textLeft": 77,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 4047,
+      "height": 691,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 38,
+      "right": 106,
+      "textLeft": 38,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "size": 40,
+      "top": 113,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 38,
+      "n": 6
+     },
+     {
+      "x": 77,
+      "n": 4
+     },
+     {
+      "x": 433,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.46,
+    0.65,
+    0.66,
+    0.54,
+    0.49,
+    0.46,
+    0.6,
+    0.72
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 564,
+     "h": 1221
+    },
+    "page": {
+     "height": 6729,
+     "screens": 5.5,
+     "words": 340,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=640&q=",
+      "image?url=%2Fassets%2Ftruck-highway.jpg&w=640&q=",
+      "image?url=%2Fassets%2Fcontainer-terminal.jpg&w=6",
+      "image?url=%2Fassets%2Fwarehouse-logistics.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "chars": 41,
+     "lines": 3,
+     "size": 40,
+     "vw": 7.1,
+     "font": "Bricolage Grotesque",
+     "weight": 700,
+     "tracking": -0.04,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.62,
+     "top": 165,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Precision freight with verified handoffs.",
+     "words": 5,
+     "lines": 3,
+     "size": 40,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "words": 5,
+      "chars": 41,
+      "lines": 3,
+      "size": 40,
+      "vw": 7.1,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 165,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "18",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 28,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 636,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "420+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 636,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "97.8%",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.18,
+      "top": 636,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Integrated Logistics Modes",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 6.8,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 1586,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Road freight",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 2798,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Bengaluru to Coastal Ports",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 6.8,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 3273,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Verified chain of custody.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 35.2,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 4467,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schedule your next dispatch",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 35.2,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 5420,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21,
+      22,
+      28,
+      35,
+      38,
+      40
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 17.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 40,
+      "vw": 7.1,
+      "font": "Bricolage Grotesque",
+      "text": "Precision freight with verified handoffs"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0c1214",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.25,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#141d20",
+       "top": 1522,
+       "hsl": {
+        "h": 195,
+        "s": 0.23,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#0c1214",
+       "top": 2485,
+       "hsl": {
+        "h": 195,
+        "s": 0.25,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a2b0b5",
+       "share": 0.54
+      },
+      {
+       "color": "#f0f4f5",
+       "share": 0.24
+      },
+      {
+       "color": "#829298",
+       "share": 0.16
+      },
+      {
+       "color": "#0c1214",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6b35",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6b35",
+      "hsl": {
+       "h": 16,
+       "s": 1,
+       "l": 0.6
+      },
+      "fg": "#0c1214"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 4,
+     "radius": 4,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Calculate Lane",
+      "Instant Lane Calculation ↗",
+      "Pincode & Port Network",
+      "Track"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "header.jsx-a0ec13acdaa55d3e 390px",
+      "div 350px",
+      "div 284px",
+      "footer 390px",
+      "div 350px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 12,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1835
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 133,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "bricolage grotesque",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 564,
+     "h": 1221
+    },
+    "pageH": 6729,
+    "margins": {
+     "left": 20,
+     "right": 191
+    },
+    "sections": [
+     {
+      "sel": "header.jsx-a0ec13acdaa55d3e",
+      "tag": "header",
+      "top": 0,
+      "height": 133,
+      "words": 11,
+      "media": 0,
+      "middle": 50,
+      "heading": null,
+      "left": 54,
+      "right": 19,
+      "textLeft": 54,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 133,
+      "height": 1147,
+      "words": 52,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Precision freight with verified handoffs.",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 191,
+      "textLeft": 20,
+      "textRight": 206,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 1279,
+      "height": 242,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 44,
+      "right": 243,
+      "textLeft": 44,
+      "textRight": 243,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 1522,
+      "height": 1655,
+      "words": 78,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Integrated Logistics Modes",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 194,
+      "textLeft": 20,
+      "textRight": 203,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#network",
+      "tag": "section",
+      "top": 3177,
+      "height": 1289,
+      "words": 37,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Bengaluru to Coastal Ports",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 194,
+      "textLeft": 52,
+      "textRight": 228,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 4467,
+      "height": 873,
+      "words": 47,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 194,
+      "textLeft": 20,
+      "textRight": 208,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 5340,
+      "height": 512,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Schedule your next dispatch",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 52,
+      "right": 226,
+      "textLeft": 52,
+      "textRight": 226,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 5851,
+      "height": 878,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 194,
+      "textLeft": 20,
+      "textRight": 194,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Precision freight with verified handoffs.",
+      "size": 40,
+      "top": 165,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 6
+     },
+     {
+      "x": 52,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"Precision freight with verified handoffs.\" → 3 lines (5 words, 67.2px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"Instant Lane Calculation ↗\" above \"18\"; \"Instant Lane Calculation ↗\" above \"420+\"; \"Pincode & Port Network\" above \"97.8%\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "5 thin rule(s)/divider line(s): header.jsx-a0ec13acdaa55d3e 1440px | div 590px | div 544px | footer 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "8 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "16 different font sizes (12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 35, 38, 54, 64, 67, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Precision freight with verified handoffs.\" → 3 lines (5 words, 40px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 20px from the left edge but only to 191px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\webdev\\kaverifreight\\.taste-skill\\inspect\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

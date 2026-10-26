@@ -1,0 +1,72 @@
+[
+ {
+  "file": "public/assets/truck-highway.jpg",
+  "media": "image",
+  "ref": "commons:177496227",
+  "title": "Freight transportation by road on open truck",
+  "creator": "Sneha G Gupta",
+  "creatorUrl": null,
+  "date": "2015-08-02",
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/wiki/File:Freight_transportation_by_road_on_open_truck.jpg",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Freight_transportation_by_road_on_open_truck.jpg/1920px-Freight_transportation_by_road_on_open_truck.jpg",
+  "width": 1920,
+  "height": 1323,
+  "bytes": 320108,
+  "credit": "\"Freight transportation by road on open truck\" by Sneha G Gupta, CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-10-25T14:03:36.461Z"
+ },
+ {
+  "file": "public/assets/container-terminal.jpg",
+  "media": "image",
+  "ref": "commons:174211061",
+  "title": "2025-08-31 D300-7711 Achim-Lammerts Mannheim-Rheinhafen",
+  "creator": "Achim Lammerts (Syntaxys)",
+  "creatorUrl": null,
+  "date": "Taken on 31 August 2025, 13:22:59",
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/wiki/File:2025-08-31_D300-7711_Achim-Lammerts_Mannheim-Rheinhafen.jpg",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/2025-08-31_D300-7711_Achim-Lammerts_Mannheim-Rheinhafen.jpg/1920px-2025-08-31_D300-7711_Achim-Lammerts_Mannheim-Rheinhafen.jpg",
+  "width": 1920,
+  "height": 1275,
+  "bytes": 674413,
+  "credit": "\"2025-08-31 D300-7711 Achim-Lammerts Mannheim-Rheinhafen\" by Achim Lammerts (Syntaxys), CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-10-25T14:04:13.299Z"
+ },
+ {
+  "file": "public/assets/warehouse-logistics.jpg",
+  "media": "image",
+  "ref": "commons:184956428",
+  "title": "Meals To You - PepsiCo - Qual Pac Food Box Team (20200813-FNS-LSC-1222)",
+  "creator": "USDAgov",
+  "creatorUrl": null,
+  "date": "Taken on 13 August 2020, 15:31:34",
+  "license": "public domain",
+  "licenseCode": "pd",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creditRequired": false,
+  "page": "https://commons.wikimedia.org/wiki/File:Meals_To_You_-_PepsiCo_-_Qual_Pac_Food_Box_Team_(20200813-FNS-LSC-1222).jpg",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Meals_To_You_-_PepsiCo_-_Qual_Pac_Food_Box_Team_%2820200813-FNS-LSC-1222%29.jpg/1920px-Meals_To_You_-_PepsiCo_-_Qual_Pac_Food_Box_Team_%2820200813-FNS-LSC-1222%29.jpg",
+  "width": 1920,
+  "height": 1280,
+  "bytes": 689462,
+  "credit": "\"Meals To You - PepsiCo - Qual Pac Food Box Team (20200813-FNS-LSC-1222)\" by USDAgov, public domain, via Wikimedia Commons",
+  "notes": [],
+  "saved": "2026-10-25T14:04:30.292Z"
+ }
+]

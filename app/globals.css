@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wdth,wght@75..100,400;75..100,500;75..100,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ink:#182126; --ink-soft:#29353a; --paper:#f4f0e8; --paper-muted:#e8e1d6; --signal:#f26b38; --signal-deep:#c84c22; --cyan:#64b9c5; --success:#1a7f62; --rule:rgba(24,33,38,.16); --ease-out:cubic-bezier(.22,1,.36,1); }
+[data-theme='dark'] { --ink:#f4f0e8; --ink-soft:#d8d2c9; --paper:#182126; --paper-muted:#29353a; --rule:rgba(244,240,232,.18); }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; background:var(--paper); }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:'Instrument Sans',sans-serif; line-height:1.55; }
+body:before { content:''; position:fixed; inset:0; pointer-events:none; opacity:.035; z-index:20; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.25'/%3E%3C/svg%3E"); }
+a { color:inherit; text-decoration:none; }
+button, input { font:inherit; }
+button, a { -webkit-tap-highlight-color:transparent; }
+:focus-visible { outline:3px solid var(--signal); outline-offset:4px; }
+::selection { background:var(--signal); color:var(--ink); }
+.display { font-family:'Bricolage Grotesque',sans-serif; letter-spacing:-.065em; line-height:.92; }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:.02em; }
+.shell { width:min(1440px,100%); margin:0 auto; padding-inline:clamp(1rem,4vw,5rem); }
+.rule { border-top:1px solid var(--rule); }
+.eyebrow { color:var(--signal-deep); font-size:.68rem; font-family:'JetBrains Mono',monospace; letter-spacing:.12em; text-transform:uppercase; }
+@media (prefers-reduced-motion:reduce) { *, *:before, *:after { scroll-behavior:auto !important; animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; } }
+@media (max-width:720px) { .site-footer-grid { grid-template-columns:1fr !important; } }
+
+/* Fade Up & Scroll Load Animations (applied only to content elements, never to backgrounds) */
+@keyframes fadeUpIn {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-element {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-element.revealed {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* Ensure elements with backdrop-filter or their immediate containers don't lose blur due to will-change/transform */
+.reveal-element:has([style*="backdropFilter"]),
+.reveal-element:has([style*="backdrop-filter"]),
+.hero-map-column {
+  will-change: auto !important;
+  transform: none !important;
+}
+
+.hero-map-card {
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  transform: translateZ(0);
+}
+
+/* Stagger animations nicely for grid children */
+.reveal-element:nth-child(2) { transition-delay: 0.08s; }
+.reveal-element:nth-child(3) { transition-delay: 0.16s; }
+.reveal-element:nth-child(4) { transition-delay: 0.24s; }
