@@ -7,9 +7,9 @@ export function ScrollRevealProvider() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Select candidates for scroll reveal
+    // Select candidates for scroll reveal (exclude hero top elements which use dedicated cascading hero intro animation)
     const candidates = document.querySelectorAll(
-      "section > *, .shell > *, [data-animate], .hero-section .shell > *, .site-footer > *",
+      "section:not(.hero-section) > *, .shell:not(.hero-shell) > *, [data-animate]:not(.hero-intro), .site-footer > *",
     );
 
     const observer = new IntersectionObserver(
@@ -29,12 +29,12 @@ export function ScrollRevealProvider() {
     );
 
     candidates.forEach((el) => {
-      // Do not apply to pure decorative full-width background overlays, map card or pseudo elements
+      // Do not apply to pure decorative full-width background overlays, map card, hero intro elements or pseudo elements
       if (
         el.getAttribute("aria-hidden") === "true" ||
         el.classList.contains("bg-layer") ||
-        el.classList.contains("hero-map-column") ||
-        el.classList.contains("hero-map-card") ||
+        el.classList.contains("hero-intro") ||
+        el.closest(".hero-intro") ||
         el.tagName === "STYLE" ||
         el.tagName === "SCRIPT"
       ) {

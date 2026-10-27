@@ -45,7 +45,7 @@ export function ControlTowerHero() {
           inset: 0,
           zIndex: -1,
           background:
-            "linear-gradient(135deg, rgba(244, 240, 232, 0.29) 0%, rgba(244, 240, 232, 0.2) 50%, rgba(244, 240, 232, 0.2) 100%)",
+            "linear-gradient(135deg, rgba(244, 240, 232, 0.16) 0%, rgba(244, 240, 232, 0.14) 50%, rgba(244, 240, 232, 0.14) 100%)",
           pointerEvents: "none",
         }}
       />
@@ -60,12 +60,11 @@ export function ControlTowerHero() {
           }}
         >
           <div>
-            <p className="eyebrow" data-animate>
+            <p className="eyebrow hero-fade-title">
               BLR / CONTROL TOWER / 2026
             </p>
             <h1
-              className="display"
-              data-animate
+              className="display hero-fade-title"
               style={{
                 fontSize: "clamp(4rem,10vw,9.5rem)",
                 maxWidth: 900,
@@ -79,7 +78,7 @@ export function ControlTowerHero() {
               its way.
             </h1>
             <p
-              data-animate
+              className="hero-fade-desc"
               style={{
                 maxWidth: 430,
                 fontSize: "clamp(1.05rem,1.8vw,1.35rem)",
@@ -90,7 +89,7 @@ export function ControlTowerHero() {
               — with every handoff visible.
             </p>
             <div
-              data-animate
+              className="hero-fade-actions"
               style={{
                 display: "flex",
                 gap: ".8rem",
@@ -125,7 +124,7 @@ export function ControlTowerHero() {
 
           {/* Map widget aligned beside 'that knows' with frosted blur backdrop overlay */}
           <div
-            className="hero-map-column"
+            className="hero-map-column hero-fade-map"
             style={{
               position: "relative",
               marginTop: "clamp(1rem, 5vw, 4.5rem)",
@@ -137,8 +136,8 @@ export function ControlTowerHero() {
                 position: "relative",
                 background:
                   "linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(244, 240, 232, 0.28) 100%)",
-                backdropFilter: "blur(16px) saturate(180%)",
-                WebkitBackdropFilter: "blur(16px) saturate(180%)",
+                backdropFilter: "blur(24px) saturate(180%)",
+                WebkitBackdropFilter: "blur(24px) saturate(180%)",
                 border: "1px solid rgba(255, 255, 255, 0.65)",
                 outline: "1px solid rgba(24, 33, 38, 0.08)",
                 borderRadius: "16px",

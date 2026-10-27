@@ -23,15 +23,45 @@ button, a { -webkit-tap-highlight-color:transparent; }
 @media (max-width:720px) { .site-footer-grid { grid-template-columns:1fr !important; } }
 
 /* Fade Up & Scroll Load Animations (applied only to content elements, never to backgrounds) */
-@keyframes fadeUpIn {
-  from {
+@keyframes heroFadeUp {
+  0% {
     opacity: 0;
-    transform: translateY(28px);
+    transform: translateY(22px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Specific fade for map widget avoiding any transform so backdrop-filter blur never glitches or drops */
+@keyframes heroFadeInMap {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-fade-title {
+  opacity: 0;
+  animation: heroFadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.08s forwards;
+}
+
+.hero-fade-map {
+  opacity: 0;
+  animation: heroFadeInMap 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.22s forwards;
+}
+
+.hero-fade-desc {
+  opacity: 0;
+  animation: heroFadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.34s forwards;
+}
+
+.hero-fade-actions {
+  opacity: 0;
+  animation: heroFadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.44s forwards;
 }
 
 .reveal-element {
@@ -47,18 +77,9 @@ button, a { -webkit-tap-highlight-color:transparent; }
   will-change: auto;
 }
 
-/* Ensure elements with backdrop-filter or their immediate containers don't lose blur due to will-change/transform */
-.reveal-element:has([style*="backdropFilter"]),
-.reveal-element:has([style*="backdrop-filter"]),
-.hero-map-column {
-  will-change: auto !important;
-  transform: none !important;
-}
-
 .hero-map-card {
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   backdrop-filter: blur(24px) saturate(180%);
-  transform: translateZ(0);
 }
 
 /* Stagger animations nicely for grid children */
