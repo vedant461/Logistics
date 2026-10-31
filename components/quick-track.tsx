@@ -51,6 +51,7 @@ export function QuickTrack() {
       </div>
       <form
         onSubmit={submit}
+        className="quick-track-form"
         style={{ display: "flex", gap: ".65rem", marginTop: "1rem" }}
       >
         <input

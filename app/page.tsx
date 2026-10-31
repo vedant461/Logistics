@@ -24,6 +24,7 @@ export default function Home() {
         }}
       >
         <div
+          className="home-action-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",
@@ -63,6 +64,7 @@ export default function Home() {
       <NetworkTrust />
       <section className="shell" style={{ paddingBottom: "6rem" }}>
         <div
+          className="home-cta-banner"
           style={{
             background: "var(--signal)",
             padding: "clamp(1.5rem,5vw,4rem)",

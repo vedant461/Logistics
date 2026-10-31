@@ -25,6 +25,7 @@ export default function QuotePage() {
     >
       <p className="eyebrow">KAVERI / RATE DESK</p>
       <div
+        className="quote-page-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "minmax(0,1fr) minmax(300px,.7fr)",

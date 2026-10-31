@@ -2,6 +2,8 @@
 
 A rebrandable Bengaluru logistics marketing site and client-portal demo built with Next.js App Router, React, strict TypeScript, Tailwind tokens and typed mock service seams.
 
+> 💡 **For AI Agents & Developers:** See [CONTEXT.md](file:///c:/webdev/kaverifreight/CONTEXT.md) for the complete architectural map, design system tokens, responsive layout guidelines, and component specifications.
+
 ## Run locally
 
 ```bash

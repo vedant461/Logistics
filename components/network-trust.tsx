@@ -5,6 +5,7 @@ export function NetworkTrust() {
     <>
       <section id="network" className="shell" style={{ paddingBottom: "6rem" }}>
         <div
+          className="network-grid"
           style={{
             background: "var(--ink)",
             color: "var(--paper)",
@@ -114,6 +115,7 @@ export function NetworkTrust() {
           </p>
         </div>
         <div
+          className="trust-ledger-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1.2fr 1fr",

@@ -26,6 +26,7 @@ export default function NetworkPage() {
         <span style={{ color: "var(--signal)" }}>starts local.</span>
       </h1>
       <div
+        className="network-page-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",

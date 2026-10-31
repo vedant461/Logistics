@@ -38,6 +38,7 @@ export function ServiceRail() {
         </p>
       </div>
       <div
+        className="service-rail-grid"
         style={{
           marginTop: "3rem",
           display: "grid",
@@ -45,11 +46,12 @@ export function ServiceRail() {
           borderTop: "1px solid var(--rule)",
         }}
       >
-        <div style={{ borderRight: "1px solid var(--rule)" }}>
+        <div className="service-rail-nav" style={{ borderRight: "1px solid var(--rule)" }}>
           {companyConfig.services.map((item, i) => (
             <button
               key={item.key}
               onClick={() => setActive(i)}
+              className="service-rail-tab-btn"
               style={{
                 display: "flex",
                 justifyContent: "space-between",
@@ -74,6 +76,7 @@ export function ServiceRail() {
           ))}
         </div>
         <div
+          className="service-rail-content"
           style={{
             padding: "clamp(1.5rem,5vw,4rem)",
             minHeight: 360,

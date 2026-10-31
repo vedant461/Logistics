@@ -85,6 +85,7 @@ export default async function SlugPage({
         {page.title}
       </h1>
       <div
+        className="slug-page-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",

@@ -50,8 +50,9 @@ export function ControlTowerHero() {
         }}
       />
 
-      <div className="shell">
+      <div className="shell hero-shell">
         <div
+          className="hero-main-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "minmax(0,1.15fr) minmax(260px,.85fr)",
@@ -136,8 +137,8 @@ export function ControlTowerHero() {
                 position: "relative",
                 background:
                   "linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(244, 240, 232, 0.28) 100%)",
-                backdropFilter: "blur(24px) saturate(180%)",
-                WebkitBackdropFilter: "blur(24px) saturate(180%)",
+                backdropFilter: "blur(16px) saturate(180%)",
+                WebkitBackdropFilter: "blur(16px) saturate(180%)",
                 border: "1px solid rgba(255, 255, 255, 0.65)",
                 outline: "1px solid rgba(24, 33, 38, 0.08)",
                 borderRadius: "16px",
@@ -240,6 +241,7 @@ export function ControlTowerHero() {
                 </text>
               </svg>
               <div
+                className="hero-stats-grid"
                 style={{
                   marginTop: "1.5rem",
                   display: "grid",
@@ -278,6 +280,7 @@ export function ControlTowerHero() {
 
         <div
           data-animate
+          className="hero-quick-track-container"
           style={{
             marginTop: "clamp(3rem,7vw,7rem)",
             display: "grid",

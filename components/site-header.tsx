@@ -122,18 +122,45 @@ export function SiteHeader() {
         {open && (
           <div
             className="mobile-drawer"
-            style={{ padding: "1.2rem 0", display: "grid", gap: "1rem" }}
+            style={{
+              padding: "1.25rem 0 1rem",
+              display: "grid",
+              gap: "1.1rem",
+              borderTop: "1px solid var(--rule)",
+              marginTop: ".8rem",
+            }}
           >
             {nav.map(([label, href]) => (
               <Link
                 key={href}
                 href={href}
                 onClick={() => setOpen(false)}
-                style={{ fontSize: "1.5rem" }}
+                style={{
+                  fontSize: "1.4rem",
+                  fontFamily: "Bricolage Grotesque",
+                  letterSpacing: "-.02em",
+                }}
               >
                 {label}
               </Link>
             ))}
+            <Link
+              href="/quote"
+              onClick={() => setOpen(false)}
+              style={{
+                marginTop: ".5rem",
+                background: "var(--signal)",
+                color: "var(--ink)",
+                padding: "1rem 1.2rem",
+                fontSize: ".75rem",
+                fontFamily: "JetBrains Mono",
+                textAlign: "center",
+                display: "block",
+                fontWeight: 600,
+              }}
+            >
+              REQUEST A QUOTE ↗
+            </Link>
           </div>
         )}
       </div>

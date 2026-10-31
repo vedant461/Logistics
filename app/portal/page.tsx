@@ -71,6 +71,7 @@ export default function PortalPage() {
       {tab === "overview" ? (
         <>
           <div
+            className="portal-stats-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(4,1fr)",
@@ -132,6 +133,7 @@ export default function PortalPage() {
             {shipments.map(([id, lane, status, eta]) => (
               <div
                 key={id}
+                className="portal-shipment-row"
                 style={{
                   display: "grid",
                   gridTemplateColumns: "1fr 2fr 1fr 1fr",
