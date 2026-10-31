@@ -26,6 +26,7 @@ export function ControlTowerHero() {
     >
       {/* Hero Background Image */}
       <div
+        className="hero-background"
         aria-hidden="true"
         style={{
           position: "absolute",
@@ -45,7 +46,7 @@ export function ControlTowerHero() {
           inset: 0,
           zIndex: -1,
           background:
-            "linear-gradient(135deg, rgba(244, 240, 232, 0.16) 0%, rgba(244, 240, 232, 0.14) 50%, rgba(244, 240, 232, 0.14) 100%)",
+            "linear-gradient(135deg, rgba(244, 240, 232, 0) 0%, rgba(244, 240, 232, 0) 50%, rgba(244, 240, 232, 0) 100%)",
           pointerEvents: "none",
         }}
       />

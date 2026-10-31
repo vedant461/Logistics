@@ -1,6 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import { calculateQuote, QuoteInput } from "@/lib/rates/rate-engine";
+import { WebGLShaderBackground } from "@/components/webgl-shader-background";
 
 const modes: QuoteInput["mode"][] = ["FTL", "LTL", "Express", "Air", "Ocean"];
 export default function QuotePage() {
@@ -20,23 +21,46 @@ export default function QuotePage() {
   );
   return (
     <section
-      className="shell"
-      style={{ paddingTop: "clamp(2.5rem,5vw,4.5rem)", paddingBottom: "7rem" }}
+      style={{
+        position: "relative",
+        minHeight: "100vh",
+        marginTop: "-72px",
+        paddingTop: "72px",
+        backgroundColor: "#101010",
+        color: "#F5F5F5",
+        overflow: "hidden",
+      }}
     >
-      <p className="eyebrow">KAVERI / RATE DESK</p>
+      <WebGLShaderBackground />
       <div
-        className="quote-page-grid"
+        className="shell"
         style={{
-          display: "grid",
-          gridTemplateColumns: "minmax(0,1fr) minmax(300px,.7fr)",
-          gap: "clamp(2rem,8vw,8rem)",
-          marginTop: "1rem",
+          position: "relative",
+          zIndex: 1,
+          paddingTop: "clamp(2.5rem,5vw,4.5rem)",
+          paddingBottom: "7rem",
         }}
       >
-        <div>
+        <p className="eyebrow" style={{ color: "var(--signal)" }}>
+          KAVERI / RATE DESK
+        </p>
+        <div
+          className="quote-page-grid"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "minmax(0,1fr) minmax(300px,.7fr)",
+            gap: "clamp(2rem,8vw,8rem)",
+            marginTop: "1rem",
+          }}
+        >
+          <div>
           <h1
             className="display"
-            style={{ fontSize: "clamp(4rem,9vw,9rem)", margin: "0 0 2rem" }}
+            style={{
+              fontSize: "clamp(4rem,9vw,9rem)",
+              margin: "0 0 2rem",
+              color: "#FFFFFF",
+            }}
           >
             A clearer
             <br />
@@ -45,7 +69,7 @@ export default function QuotePage() {
           <p
             style={{
               maxWidth: 430,
-              color: "var(--ink-soft)",
+              color: "#B0B0B0",
               fontSize: "1.15rem",
             }}
           >
@@ -69,9 +93,10 @@ export default function QuotePage() {
                     onClick={() => setMode(item)}
                     style={{
                       padding: ".7rem .8rem",
-                      border: "1px solid var(--rule)",
-                      background: item === mode ? "var(--ink)" : "transparent",
-                      color: item === mode ? "var(--paper)" : "var(--ink)",
+                      border: "1px solid rgba(255,255,255,.3)",
+                      background:
+                        item === mode ? "var(--signal)" : "transparent",
+                      color: item === mode ? "var(--ink)" : "#F5F5F5",
                       fontFamily: "JetBrains Mono",
                       fontSize: ".68rem",
                     }}
@@ -140,8 +165,8 @@ export default function QuotePage() {
               </span>
             </label>
           </div>
-        </div>
-        <aside
+          </div>
+          <aside
           style={{
             background: "var(--ink)",
             color: "var(--paper)",
@@ -197,7 +222,8 @@ export default function QuotePage() {
           >
             CHARGEABLE WEIGHT / {quote.chargeableKg} KG
           </p>
-        </aside>
+          </aside>
+        </div>
       </div>
     </section>
   );

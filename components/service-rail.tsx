@@ -80,47 +80,55 @@ export function ServiceRail() {
           style={{
             padding: "clamp(1.5rem,5vw,4rem)",
             minHeight: 360,
-            background: "var(--paper-muted)",
+            backgroundColor: "var(--paper-muted)",
+            backgroundImage: "url('/assets/Texturelabs_Paper_146M.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            boxShadow: "inset 0 4px 18px rgba(0, 0, 0, 0.4), inset 0 1px 4px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(0, 0, 0, 0.8)",
             position: "relative",
             overflow: "hidden",
+            isolation: "isolate",
           }}
         >
-          <div
-            className="mono"
-            style={{ fontSize: ".68rem", color: "var(--signal-deep)" }}
-          >
-            {service.eyebrow}
-          </div>
-          <h3
-            className="display"
-            style={{
-              fontSize: "clamp(2.5rem,6vw,6rem)",
-              margin: "1.1rem 0",
-              maxWidth: 700,
-            }}
-          >
-            {service.name}
-          </h3>
-          <p
-            style={{
-              maxWidth: 480,
-              fontSize: "1.1rem",
-              color: "var(--ink-soft)",
-            }}
-          >
-            {service.detail}
-          </p>
-          <div
-            className="mono"
-            style={{
-              fontSize: ".7rem",
-              marginTop: "2.5rem",
-              paddingTop: "1rem",
-              borderTop: "1px solid var(--rule)",
-              display: "inline-block",
-            }}
-          >
-            {service.metric}
+          <div style={{ position: "relative", zIndex: 2 }}>
+            <div
+              className="mono"
+              style={{ fontSize: ".68rem", color: "var(--signal-deep)" }}
+            >
+              {service.eyebrow}
+            </div>
+            <h3
+              className="display"
+              style={{
+                fontSize: "clamp(2.5rem,6vw,6rem)",
+                margin: "1.1rem 0",
+                maxWidth: 700,
+              }}
+            >
+              {service.name}
+            </h3>
+            <p
+              style={{
+                maxWidth: 480,
+                fontSize: "1.1rem",
+                color: "var(--ink-soft)",
+              }}
+            >
+              {service.detail}
+            </p>
+            <div
+              className="mono"
+              style={{
+                fontSize: ".7rem",
+                marginTop: "2.5rem",
+                paddingTop: "1rem",
+                borderTop: "1px solid var(--rule)",
+                display: "inline-block",
+              }}
+            >
+              {service.metric}
+            </div>
           </div>
           <div
             aria-hidden="true"
@@ -131,8 +139,11 @@ export function ServiceRail() {
               fontSize: "13rem",
               lineHeight: 1,
               color: "var(--signal)",
-              opacity: 0.14,
+              opacity: 0.18,
               fontFamily: "Bricolage Grotesque",
+              zIndex: 1,
+              pointerEvents: "none",
+              userSelect: "none",
             }}
           >
             {String(active + 1).padStart(2, "0")}

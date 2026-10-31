@@ -44,14 +44,22 @@ export default function NetworkPage() {
         </div>
         <div
           style={{
-            background: "var(--paper-muted)",
+            backgroundColor: "var(--paper-muted)",
+            backgroundImage: "url('/assets/Texturelabs_Paper_146M.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            boxShadow: "inset 0 4px 18px rgba(0, 0, 0, 0.74), inset 0 1px 4px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(0, 0, 0, 0.8)",
+            position: "relative",
+            overflow: "hidden",
+            isolation: "isolate",
             padding: "1.5rem",
             minHeight: 360,
           }}
         >
           <p
             className="mono"
-            style={{ fontSize: ".68rem", color: "var(--signal-deep)" }}
+            style={{ fontSize: ".68rem", color: "#af350cff" }}
           >
             HUBS / LIVE FIXTURE
           </p>
@@ -68,7 +76,7 @@ export default function NetworkPage() {
               <span>{hub}</span>
               <span
                 className="mono"
-                style={{ fontSize: ".65rem", color: "var(--ink-soft)" }}
+                style={{ fontSize: ".65rem", color: "var(--ink)" }}
               >
                 {String(i + 1).padStart(2, "0")} / LANE
               </span>

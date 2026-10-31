@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { companyConfig } from "@/config/company.config";
 
@@ -13,15 +14,22 @@ const nav = [
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const isServicesPage = usePathname() === "/services";
+  const isQuotePage = usePathname() === "/quote";
+  const darkHeaderPage = isServicesPage || isQuotePage;
+  const servicesHeaderTextStyle = darkHeaderPage
+    ? { color: "#fff", mixBlendMode: "difference" as const }
+    : undefined;
   return (
     <header
+      className={`site-header${darkHeaderPage ? " services-header" : ""}`}
       style={{
         position: "sticky",
         top: 0,
-        zIndex: 50,
-        background: "rgba(244, 240, 232, 0.35)",
-        backdropFilter: "blur(10px)",
-        WebkitBackdropFilter: "blur(10px)",
+        zIndex: 100,
+        background: "rgba(244, 240, 232, 0)",
+        backdropFilter: "blur(12px)",
+        WebkitBackdropFilter: "blur(12px)",
         borderBottom: "1px solid var(--rule)",
       }}
     >
@@ -56,15 +64,32 @@ export function SiteHeader() {
                 transform: "rotate(-8deg)",
               }}
             >
-              {companyConfig.logo.mark}
+              <span
+                className={darkHeaderPage ? "services-header-text" : undefined}
+                style={servicesHeaderTextStyle}
+              >
+                {companyConfig.logo.mark}
+              </span>
             </span>
             <span
-              className="mono"
-              style={{ fontSize: ".67rem", lineHeight: 1.1 }}
+              className={`mono${darkHeaderPage ? " services-header-text" : ""}`}
+              style={{
+                fontSize: ".67rem",
+                lineHeight: 1.1,
+                ...servicesHeaderTextStyle,
+              }}
             >
               {companyConfig.logo.wordmark}
               <br />
-              <span style={{ color: "var(--signal-deep)" }}>BLR / INDIA</span>
+              <span
+                className={darkHeaderPage ? "services-header-text" : undefined}
+                style={{
+                  color: darkHeaderPage ? "#fff" : "var(--signal-deep)",
+                  ...(darkHeaderPage ? { mixBlendMode: "difference" as const } : {}),
+                }}
+              >
+                BLR / INDIA
+              </span>
             </span>
           </Link>
           <nav
@@ -84,7 +109,12 @@ export function SiteHeader() {
               }}
             >
               {nav.map(([label, href]) => (
-                <Link key={href} href={href}>
+                <Link
+                  key={href}
+                  href={href}
+                  className={darkHeaderPage ? "services-header-text" : undefined}
+                  style={servicesHeaderTextStyle}
+                >
                   {label}
                 </Link>
               ))}
@@ -100,7 +130,12 @@ export function SiteHeader() {
                 fontFamily: "JetBrains Mono",
               }}
             >
-              REQUEST A QUOTE ↗
+              <span
+                className={darkHeaderPage ? "services-header-text" : undefined}
+                style={servicesHeaderTextStyle}
+              >
+                REQUEST A QUOTE ↗
+              </span>
             </Link>
             <button
               className="mobile-menu"
@@ -115,7 +150,12 @@ export function SiteHeader() {
                 fontSize: "1.3rem",
               }}
             >
-              {open ? "×" : "≡"}
+              <span
+                className={darkHeaderPage ? "services-header-text" : undefined}
+                style={servicesHeaderTextStyle}
+              >
+                {open ? "×" : "≡"}
+              </span>
             </button>
           </nav>
         </div>
@@ -135,10 +175,12 @@ export function SiteHeader() {
                 key={href}
                 href={href}
                 onClick={() => setOpen(false)}
+                className={darkHeaderPage ? "services-header-text" : undefined}
                 style={{
                   fontSize: "1.4rem",
                   fontFamily: "Bricolage Grotesque",
                   letterSpacing: "-.02em",
+                  ...servicesHeaderTextStyle,
                 }}
               >
                 {label}
@@ -147,6 +189,7 @@ export function SiteHeader() {
             <Link
               href="/quote"
               onClick={() => setOpen(false)}
+              className={darkHeaderPage ? "services-header-text" : undefined}
               style={{
                 marginTop: ".5rem",
                 background: "var(--signal)",
@@ -159,12 +202,17 @@ export function SiteHeader() {
                 fontWeight: 600,
               }}
             >
-              REQUEST A QUOTE ↗
+              <span style={servicesHeaderTextStyle}>REQUEST A QUOTE ↗</span>
             </Link>
           </div>
         )}
       </div>
       <style jsx>{`
+        .services-header-text {
+          color: #fff !important;
+          mix-blend-mode: difference;
+        }
+
         @media (max-width: 720px) {
           .desktop-nav,
           .header-cta {

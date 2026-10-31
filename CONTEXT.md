@@ -33,11 +33,13 @@ kaverifreight/
 │   ├── quote/page.tsx         # Interactive Rate Calculator (Weight, Volume, Lane KM, Surcharges, GST)
 │   ├── network/page.tsx       # Coverage Desk with interactive PincodeChecker & Live Hub Fixture
 │   ├── portal/page.tsx        # Mock Client Portal: Overview, Book Shipment, Documents, Invoices
-│   ├── [slug]/page.tsx        # Dynamic editorial routes (/services, /fleet, /about, /contact, etc.)
+│   ├── services/page.tsx      # Services page with animated WebGL background and service content
+│   ├── [slug]/page.tsx        # Dynamic editorial routes (/fleet, /about, /contact, etc.)
 │   ├── sitemap.ts             # SEO XML Sitemap generator
 │   └── robots.ts              # Robots.txt handler
 ├── components/
 │   ├── control-tower-hero.tsx # Hero section with dynamic animated SVG route map & real-time telemetry stats
+│   ├── webgl-shader-background.tsx # Lightweight animated shader background used by the services page
 │   ├── quick-track.tsx        # Live desk quick tracking widget (AWB / LR / Container ID lookup)
 │   ├── service-rail.tsx       # The 6 modes interactive browser (desktop tabs + mobile touch-snap rail)
 │   ├── network-trust.tsx      # Southern corridor lane map, active hubs & trust ledger / certifications
@@ -112,18 +114,31 @@ Defined in [app/globals.css](file:///c:/webdev/kaverifreight/app/globals.css):
 - Responsive hooks: `.network-grid` and `.trust-ledger-grid` collapse cleanly into 1 column on mobile.
 
 ### 5. `SiteHeader` (`components/site-header.tsx`)
-- Sticky frosted header (`backdrop-filter: blur(10px)`).
+- Sticky frosted header (`position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px)`).
+- Mobile & Desktop sticky parity: Uses `overflow-x: clip` on `html` and `body` (instead of `overflow-x: hidden`) so CSS `position: sticky` continues tracking viewport scroll without breaking on mobile devices.
 - Desktop: Wordmark + nav links + "REQUEST A QUOTE ↗" button.
 - Mobile: Wordmark + hamburger toggle button (`≡` / `×`).
 - Mobile drawer includes navigation links plus an integrated "REQUEST A QUOTE ↗" button.
+- On `/services` only, header text uses white text with `mix-blend-mode: difference` so it dynamically inverts against the animated background. The header structure, spacing, interactions, and all other routes remain unchanged.
 
-### 6. `Rate Calculator` (`app/quote/page.tsx`)
+### 6. Services Page (`app/services/page.tsx`)
+- Uses a dark, full-viewport wrapper with the animated `WebGLShaderBackground` positioned beneath the shared sticky header.
+- The wrapper uses `marginTop: -72px` and `paddingTop: 72px` to align the background with the top of the viewport while preserving the content position below the header.
+- The page-specific header inversion is implemented in `SiteHeader`, not through global styles, so other routes retain their normal header colors.
+
+### 7. `WebGLShaderBackground` (`components/webgl-shader-background.tsx`)
+- Renders the animated services-page background with WebGL while retaining the existing CSS canvas dimensions and visual palette.
+- The fragment shader shades four active colors (`#101010`, `#F5F5F5`, `#B0B0B0`, and `#3A3A3A`), matching the configured palette.
+- Limits the WebGL backing canvas to a maximum device-pixel ratio of `1.5` to reduce GPU and load-time work on high-density displays without changing the displayed canvas size.
+- Keeps the render loop lightweight and pauses rendering while the document is hidden.
+
+### 8. `Rate Calculator` (`app/quote/page.tsx`)
 - Real-time client-side rate engine (`lib/rates/rate-engine.ts`).
 - Mode selection, weight slider (1–2000 kg), volume slider (0.05–10 m³), distance slider (5–1800 km).
 - Auto-calculates volumetric weight (`volume * 167 kg/m³`), fuel surcharge, handling, and 18% GST.
 - Responsive hook: `.quote-page-grid` stacks configuration options above sticky total card on mobile.
 
-### 7. Client Portal (`app/portal/page.tsx`)
+### 9. Client Portal (`app/portal/page.tsx`)
 - Mock client interface for demoing customer accounts (overview stats, shipment status table, book, documents, invoices).
 - Responsive hooks: `.portal-stats-grid` (2x2 on mobile), `.portal-shipment-row`.
 
@@ -183,3 +198,7 @@ pnpm build
    - Use JetBrains Mono for codes, timestamps, and numbers (`.mono` or `fontFamily: "JetBrains Mono"`).
 4. **Integration Swaps:**
    - If connecting a real database or 3rd-party APIs (e.g., MapmyIndia, Razorpay, WhatsApp Business, Delhivery/Shiprocket TMS), implement them through `lib/services/` by swapping out the mock providers. Keep component props clean.
+5. **Services Page Performance and Scope:**
+   - Preserve the services page's top offset pairing (`marginTop` and `paddingTop`) when changing header height or overlap behavior; both values must remain aligned to prevent a strip above the background.
+   - Keep WebGL optimizations scoped to rendering workload. Do not change the shader palette, canvas CSS size, or animation design when tuning performance.
+   - Keep inverse header text styling gated to the exact `/services` pathname and apply it only to header text and icons; do not introduce global color or layout changes.

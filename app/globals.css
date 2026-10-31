@@ -6,8 +6,8 @@
 :root {
   --ink: #182126;
   --ink-soft: #29353a;
-  --paper: #f0dec4;
-  --paper-muted: #e8e1d6;
+  --paper: #c7c7c6;
+  --paper-muted: #fffffe;
   --signal: #f26b38;
   --signal-deep: #c84c22;
   --cyan: #64b9c5;
@@ -31,6 +31,7 @@
 html {
   scroll-behavior: smooth;
   background: var(--paper);
+  overflow-x: clip;
 }
 
 body {
@@ -39,6 +40,7 @@ body {
   color: var(--ink);
   font-family: 'Instrument Sans', sans-serif;
   line-height: 1.55;
+  overflow-x: clip;
 }
 
 body:before {
@@ -124,9 +126,19 @@ a {
    ========================================================================== */
 
 @media (max-width: 820px) {
-  /* Prevent horizontal cutoffs or spills on small screens */
-  html, body {
-    overflow-x: hidden;
+
+  /* Prevent horizontal cutoffs or spills on small screens without breaking position: sticky */
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  /* Ensure site header stays fixed/sticky over scrolling page content on mobile devices */
+  header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100 !important;
   }
 
   .shell {
@@ -134,6 +146,10 @@ a {
   }
 
   /* 1. HERO SECTION */
+  .hero-background {
+    background-position: 40% top !important;
+  }
+
   .hero-main-grid {
     grid-template-columns: 1fr !important;
     gap: 2.25rem !important;
