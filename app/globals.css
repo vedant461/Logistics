@@ -38,7 +38,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: 'Instrument Sans', Arial, Helvetica, sans-serif;
   line-height: 1.55;
   overflow-x: clip;
 }
@@ -79,13 +79,13 @@ a {
 }
 
 .display {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Bricolage Grotesque', Arial, Helvetica, sans-serif;
   letter-spacing: -.065em;
   line-height: .92;
 }
 
 .mono {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
   letter-spacing: .02em;
 }
 

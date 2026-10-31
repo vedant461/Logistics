@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const VERTEX_SHADER_SRC = `
 attribute vec2 a_position;
